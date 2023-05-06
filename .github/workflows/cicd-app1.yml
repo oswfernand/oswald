@@ -1,7 +1,8 @@
 name: run test cases
 on: 
   push: 
-    branches: [app1_cicd]
+    branches: 
+      - app1_cicd
 jobs: 
   build: 
     runs-on: ubuntu-latest
