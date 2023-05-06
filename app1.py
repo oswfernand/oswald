@@ -9,7 +9,7 @@ def divide(a,b):
     return a//b
 
 def multiply(a,b):
-    return 10
+    return a*b
 
 
 
